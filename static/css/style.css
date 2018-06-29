@@ -1,0 +1,16 @@
+#fixed-menu {
+	width: 100%;
+	background-color: #FB6C4D;
+	position: fixed;
+	top: 0px; 
+	left: 0px;
+}
+
+#main-content {
+	width: 100%;
+}
+
+#fixed-menu li {
+	display: inline-block;
+	margin-right: 30px; 
+}
