@@ -1,4 +1,4 @@
-*{margin: 0px; padding: 0px;}
+ *{margin: 0px; padding: 0px;}
 
 #fixed-menu {
 	position: fixed;
@@ -12,9 +12,16 @@
 	text-align: right;
 }
 
+#fixed-menu img {
+	margin-top: 25px;
+	margin-left: 50px;
+	float: left;
+}
+
 #fixed-menu ul {
 	margin-top: 39px;
 	margin-right: 100px;
+	display: inline-block;
 }
 
 #fixed-menu li {
@@ -35,11 +42,22 @@
 	width: 100%;
 	margin: 0 auto;
 }
-
+/*
+@media only screen and (min-device-width: 1224px) {
+	#HOME {
+		width: 100vw;
+		height: 100vh;
+		background: url(../img/background4.jpg);
+		background-repeat: no-repeat;
+	}
+}
+*/
 
 #HOME {
 	width: 100vw;
 	height: 100vh;
+	background: url(../img/background4.jpg);
+	background-repeat: no-repeat;
 }
 
 #ABOUT {
