@@ -87,7 +87,12 @@
 #pages button {
     /* This extra margin represent roughly the same space as the space
        between the labels and their text fields */
-    margin-left: .5em;
+    margin-left: 16em;
+    box-sizing: border-box;
+	padding: 1em;
+	background-color: #CCC;
+	border: 1px solid white;
+	border-radius: 1em;
 }
 
 /*
@@ -109,15 +114,58 @@
 }
 
 #ABOUT {
-	background-color: blue; 
+	background-color: #FFFFFF; 
+	width: 100vw;
+	height: 100vh; 
+	text-align: center;
+}
+
+#ABOUT img {
+	display: none
+}
+
+#ABOUT h1 {
+	padding-top: 80px;
+	font-size: 70px;
+}
+/*
+#ABOUT h1:hover {
+	position: relative;
+}
+
+#ABOUT h1:hover:after {
+	content: url(../img/softwareDeveloper.jpg);
+	background-size: 30px;
+	display: block;
+	position: absolute;
+	left: 200px;
+	top: 10px;
+}
+*/
+
+#ABOUT h2 {
+	padding-top: 69px;
+}
+
+#ABOUT h3 {
+	padding-top: 50px;
+}
+
+#ABOUT p {
+	padding-top: 10px;
+}
+
+#PORTFOLIO {
+	background-color: #FFFFFF; 
 	width: 100vw;
 	height: 100vh; 
 }
 
-#PORTFOLIO {
-	background-color: green; 
-	width: 100vw;
-	height: 100vh; 
+#PORTFOLIO h1 {
+	padding-top: 69px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	text-align: center;
 }
 
 #CONTACT {
@@ -127,15 +175,16 @@
 }
 
 #CONTACT p {
-	margin-top: 200px;
-	margin-bottom: 30px;
+	padding-top: 69px;
+	margin-bottom: 20px;
 	font-size: 20px;
 	text-align: center;
 }
 
 #footer {
 	width: 100%;
-	height: 220px;
+	padding-top: 30px;
+	height: 150px;
 	background-color: #FFFFFF;
 	bottom: 0;
 	text-align: center;
